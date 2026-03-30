@@ -39,6 +39,4 @@ public class Domashka03_04 {
                 System.out.println("Количество нулевых элементов: " + O);
             }
     }
-
 }
-

@@ -38,6 +38,5 @@ public class Domashka03_05 {
         for (int number : numbers) {
             System.out.print(number + " ");                                     // Вывод значений в прямом порядке
         }
-
     }
 }

@@ -41,6 +41,4 @@ public class Domashka03_06 {
             System.out.println("Массив НЕ возрастающицй");
         }
     }
-
-
 }

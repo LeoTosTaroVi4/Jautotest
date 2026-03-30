@@ -35,8 +35,5 @@ public class Domashka03_02 {
                 }
             }
             System.out.println("Максимальное значение - " + numbers[a-1] + " . Минимальное значение - " + numbers[0] );
-
     }
 }
-
-
