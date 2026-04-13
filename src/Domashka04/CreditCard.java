@@ -14,7 +14,13 @@ import java.util.Scanner;
 public class CreditCard {
         String Account;
         int sum;
-        public void  moneyadd(){
+
+    public CreditCard(int sum, String account) {
+        this.sum = sum;
+        this.Account = account;
+    }
+
+    public void  moneyadd(){
             Scanner scannern = new Scanner(System.in);
             System.out.println("текущий баланс  = " + sum );
             System.out.println("Введите сумму пополнения" );
@@ -22,6 +28,7 @@ public class CreditCard {
             sum = sum + a;
             System.out.println("Новая сумма = " + sum );
         }
+
         public void  moneysubstract(){
             Scanner scannern = new Scanner(System.in);
             System.out.println("текущий баланс  = " + sum );

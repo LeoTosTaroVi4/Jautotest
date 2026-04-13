@@ -2,19 +2,13 @@ package Domashka04;
 
 public class CCMain {
     public static void main(String[] args) {                    //КРЕДИТКИ
-        CreditCard cc1 = new CreditCard();                      //Первая карта
-        cc1.Account = "00000001";
-        cc1.sum = 10000;
+        CreditCard cc1 = new CreditCard(10000, "00000001");                      //Первая карта
         System.out.println("Пополнение карты - " + cc1.Account);
         cc1.moneyadd();
-        CreditCard cc2 = new CreditCard();                      //Вторая карта
-        cc2.Account = "12345678";
-        cc2.sum = 56900;
+        CreditCard cc2 = new CreditCard(56900, "12345678");                      //Вторая карта
         System.out.println("Пополнение карты - " + cc2.Account);
         cc2.moneyadd();
-        CreditCard cc3 = new CreditCard();                      //Третья карта
-        cc3.Account = "95621475";
-        cc3.sum = 88552;
+        CreditCard cc3 = new CreditCard(88552, "95621475");                      //Третья карта
         System.out.println("Снятие с карты - " + cc3.Account);
         cc3.moneysubstract();
         System.out.println("Номер счета - " + cc1.Account + "   Сумма на счёте = " + cc1.sum );
